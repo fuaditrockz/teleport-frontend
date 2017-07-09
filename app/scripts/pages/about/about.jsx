@@ -174,10 +174,10 @@ class About extends React.Component {
                                                     </div>
                                                     <div className="col-lg-6 col-md-6 team">
                                                     <div className="teamimg">
-                                                        <img src="images/teammembers/yudi.jpg" />
+                                                        <img src="images/teammembers/reinaldy.jpg" />
                                                     </div>
-                                                        <h4 style={titleStyles}>Rahman Ari Wahyudi</h4>
-                                                        <p style={subtitleStyles}>Head of Technology / Co Founder of Teleport</p>
+                                                        <h4 style={titleStyles}>Reinaldy Agung</h4>
+                                                        <p style={subtitleStyles}>Public Relations and Community Head /Co Founder of Teleport</p>
                                                         <p style={par}>Ut tincidunt sollicitudin arcu, non bibendum mi adipiscing sit amet. Nulla et facilisis orci. Fusce bibendum leo sodales, sollicitudin turpis eu, scelerisque nulla. Aliquam et urna ac felis ornare consectetur at vitae libero. Donec nec
                                                             quam ut odio suscipit aliquam. Nulla sit amet tortor molestie, blandit justo non, imperdiet velit.</p>
                                                         <div className="teamsocial">

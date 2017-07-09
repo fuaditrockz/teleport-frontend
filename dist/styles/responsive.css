@@ -364,6 +364,7 @@
 	}
 }
 @media (max-width:800px){
+	.tg-navigationarea {padding: 10px 0;}
 	.tg-mapinnerbanner {margin-top: 200px;}
 	.tg-detailpagehead figure figcaption {padding: 20px 0 160px;}
 }

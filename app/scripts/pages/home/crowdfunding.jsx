@@ -1,5 +1,9 @@
 import React from 'react';
 
+const people10 = {
+    width: 40 + "%"
+}
+
 class CrowdFunding extends React.Component {
     render(){
         return(
@@ -51,7 +55,7 @@ class CrowdFunding extends React.Component {
                                                         <p>We have 10 acres next to land without fences so you will get to enjoy nature: just hang out on the deck, take a hike in the woods, watch the hummingbirds, pet the goats, go to the beach or gaze at the stars - as long as the moon isn't full. ; ) During the summer, if there isn't any nightly fog, we can see the Milky Way here.</p>
                                                         <a href="" className="cancellation-policies">Overview >></a>
                                                         <div id="myprogress">
-                                                            <div id="mybar">10 People</div>
+                                                            <div id="mybar" style={people10}>10 People</div>
                                                         </div>
                                                         <div id="mydescription">
                                                             Total 100 people

@@ -51,7 +51,7 @@ gulp.task('style',function(cb){
 
 // copy js from app to dist
 gulp.task('script',function(cb){
-  return gulp.src(app + 'script/**/*.js')
+  return gulp.src(app + 'script/**/*.{js,json}')
     .pipe($.size({ title : 'js' }))
     .pipe(gulp.dest(dist + 'script/'));
 });
@@ -104,7 +104,7 @@ gulp.task('watch', function() {
   gulp.watch(app + 'index.html', ['html']);
   gulp.watch(app + 'scripts/**/*.js', ['scripts']);
   gulp.watch(app + 'scripts/**/*.jsx', ['scripts']);
-  gulp.watch(app + 'script/**/*.js', ['script']);
+  gulp.watch(app + 'script/**/*.{js,json}', ['script']);
   gulp.watch(app + 'style/*.css', ['style']);
   gulp.watch(app + 'fonts/*.{eot,svg,ttf,woff,otf,woff2}', ['fonts']);
 });
