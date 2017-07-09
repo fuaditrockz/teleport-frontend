@@ -1,14 +1,11 @@
-# React Starterkit
+# Teleport Starterkit
 
-This react starterkit provides a prepared development environment based on [gulp](https://github.com/gulpjs/gulp), [stylus](https://github.com/LearnBoost/stylus) and [webpack](https://github.com/webpack/webpack). The internal data flow is handled with  [Reflux](https://github.com/spoike/refluxjs) and the routing is managed with the [React-Router](https://github.com/rackt/react-router).
-
-####[Demo](http://wbkd.github.io/react-starterkit)
-This starterkit does not include some fancy UI stuff but is a lightweight starting point for your next react app.
+This gulp starterkit provides a prepared development environment based on [gulp](https://github.com/gulpjs/gulp), less and [webpack](https://github.com/webpack/webpack). The internal data flow is handled with  [Reflux](https://github.com/spoike/refluxjs) and the routing is managed with the [React-Router](https://github.com/rackt/react-router).
 
 ## Get the kit
 
 ```
-$ git clone https://github.com/wbkd/react-starterkit.git && cd react-starterkit
+$ git clone https://github.com/fuaditrockz/teleport-frontend.git && cd teleport-frontend
 ```
 
 ## Installation
@@ -67,12 +64,8 @@ We are working with the webpack [babel loader](https://github.com/babel/babel-lo
 
 ## CSS
 
-CSS entry file: `app/stylus/main.styl`<br />
-
-**Stylus**
-
-As you can see we are using stylus to preprocess our .styl files. If you didn't work with a css preprocessor before the [stylus page](http://learnboost.github.io/stylus/) is a good starting point to get to know what stylus can do for you.<br /><br />
-If you want to use third-party CSS you just include it via `@import 'path/to/your/third-party-styles.css'` at the top of the main.styl file.
+CSS entry file: `app/less/main.less`<br />
+And you can find the core style on the file `app/style/**`.
 
 
 ## Webpack Hints
