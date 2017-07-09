@@ -1,0 +1,120 @@
+.tg-header {
+  background-color: #fff;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+.scroll {
+  overflow: scroll;
+  margin-top: 120px;
+}
+@media (max-width: 599px) {
+  .scroll {
+    margin-top: 38%;
+  }
+}
+.logo-33planet {
+  width: 130px;
+}
+.container-team {
+  width: 760px;
+  padding-top: 90px;
+}
+.team-row {
+  margin-bottom: 150px;
+  padding: 0;
+}
+@media (max-width: 599px) {
+  .team-row {
+    margin-bottom: 2px;
+  }
+}
+.team {
+  width: 370px;
+  min-height: 100%;
+  border: 1px solid rgba(133, 133, 133, 0.15);
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  margin: 0 8px 0 8px;
+}
+@media (max-width: 599px) {
+  .team {
+    max-width: 45%;
+    margin: 0 0 120px 10px;
+  }
+}
+.teamimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: -80px;
+  width: 170px;
+  height: 170px;
+  background: #1bbc9d;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  border-radius: 100px;
+}
+.teamimg img {
+  border-radius: 100px;
+}
+.teamsocial {
+  height: 48px;
+  background-color: #e7f3ff;
+  position: relative;
+  bottom: -14px;
+  left: 0;
+  padding: 0 44px;
+  border-radius: 50px;
+}
+.teamsocial a {
+  cursor: pointer;
+}
+.facebook-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.twitter-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.google-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.linkedin-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.facebook-team:hover {
+  color: #3B5998;
+}
+.twitter-team:hover {
+  color: #29B3E1;
+}
+.google-team:hover {
+  color: #DE5845;
+}
+.linkedin-team:hover {
+  color: #0077b5;
+}

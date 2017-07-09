@@ -1,5 +1,5 @@
 {
-  "name": "webkid-react-starterkit",
+  "name": "teleport-app",
   "version": "1.0.1",
   "description": "Lightweight starting point for a react web app.",
   "keywords": [
@@ -28,6 +28,7 @@
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.2.0",
+    "gulp-less": "^3.3.2",
     "gulp-livereload": "^3.8.1",
     "gulp-load-plugins": "^1.1.0",
     "gulp-size": "^2.0.0",

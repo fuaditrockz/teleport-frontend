@@ -5,11 +5,15 @@ import Footer from '../components/footer.jsx'
 const App = (props) => {
     return (
       <div>
-        <Header />
-        <div className="content">
-          {props.children}
-        </div>
-          <Footer />
+        <Header /> 
+          <div className="content">
+            <div className="preloader-outer">
+                <div className="pin"></div>
+                <div className="pulse"></div>
+            </div>
+            {props.children}
+          </div>
+        <Footer />
       </div>
     );
 };

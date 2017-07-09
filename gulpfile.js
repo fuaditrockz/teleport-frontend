@@ -45,8 +45,8 @@ gulp.task('html', function() {
 gulp.task('styles',function(cb) {
 
   // convert stylus to css
-  return gulp.src(app + 'stylus/main.styl')
-    .pipe($.stylus({
+  return gulp.src(app + 'less/main.less')
+    .pipe($.less({
       // only compress if we are in production
       compress: isProduction,
       // include 'normal' css into main.css

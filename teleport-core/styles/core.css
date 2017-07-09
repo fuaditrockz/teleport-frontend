@@ -1,0 +1,216 @@
+.container-team {
+  width: 760px;
+  padding-top: 90px;
+}
+.team-row {
+  margin-bottom: 150px;
+  padding: 0;
+}
+@media (max-width: 599px) {
+  .team-row {
+    margin-bottom: 2px;
+  }
+}
+.team {
+  width: 370px;
+  min-height: 100%;
+  border: 1px solid rgba(133, 133, 133, 0.15);
+  background-color: #fff;
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  margin: 0 8px 0 8px;
+}
+@media (max-width: 599px) {
+  .team {
+    max-width: 45%;
+    margin: 0 0 120px 10px;
+  }
+}
+.teamimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: -80px;
+  width: 170px;
+  height: 170px;
+  background: #1bbc9d;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.09);
+  border-radius: 100px;
+}
+.teamimg img {
+  border-radius: 100px;
+}
+.teamsocial {
+  height: 48px;
+  background-color: #e7f3ff;
+  position: relative;
+  bottom: -14px;
+  left: 0;
+  padding: 0 44px;
+  border-radius: 50px;
+}
+.teamsocial a {
+  cursor: pointer;
+}
+.facebook-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.twitter-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.google-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.linkedin-team {
+  float: left;
+  width: 48px;
+  height: 48px;
+  color: #D1CFCF;
+  display: block;
+  font-size: 30px;
+  padding: 7px;
+}
+.facebook-team:hover {
+  color: #3B5998;
+}
+.twitter-team:hover {
+  color: #29B3E1;
+}
+.google-team:hover {
+  color: #DE5845;
+}
+.linkedin-team:hover {
+  color: #0077b5;
+}
+.logo-33planet {
+  width: 13%;
+  height: 10%;
+}
+.price {
+  background-color: #f92d3e;
+  width: 190px !important;
+  padding: 15px;
+  border-radius: 5px;
+}
+.white-color {
+  color: white;
+}
+.tg-widgetcontent ul li a {
+  color: white;
+}
+.tg-btnbuy {
+  z-index: 3;
+  background-color: #fff;
+  color: #eb0487;
+  border: 2px solid #eb0487;
+  padding: 10px 40px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+.tg-btnbuy:hover {
+  color: #fff;
+  background-color: #eb0487;
+}
+.m-top-md {
+  margin-top: 30px !important;
+}
+.m-bottom-md {
+  margin-bottom: 30px !important;
+}
+.m-left-md {
+  margin-left: 30px !important;
+}
+.m-right-md {
+  margin-right: 30px !important;
+}
+.m-top-sm {
+  margin-top: 5px !important;
+}
+.m-bottom-sm {
+  margin-bottom: 5px !important;
+}
+.m-left-sm {
+  margin-left: 5px !important;
+}
+.m-right-sm {
+  margin-right: 5px !important;
+}
+.pointer-mouse {
+  cursor: pointer;
+}
+.crowd-funding .tg-featuredimg {
+  width: 30%;
+  padding: 0;
+}
+.crowd-funding .tg-crowddesc {
+  width: 70%;
+  background-color: #fff;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body {
+  margin: 20px 0;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body p {
+  margin: 0 !important;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body #myprogress {
+  margin: 20px 0 0;
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body #myprogress #mybar {
+  width: 10%;
+  height: 30px;
+  background-color: #f92d3e;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body #mydescription {
+  height: 50px;
+  float: right;
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #484848;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body .action-funding {
+  margin: 20px 0;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body .action-funding .tg-btnfunding {
+  padding: 10px 40px;
+  color: #f92d3e;
+  border: 2px solid #f92d3e;
+  border-radius: 5px;
+}
+.crowd-funding .tg-crowddesc .tg-crowd-body .action-funding .tg-btnfunding:hover {
+  background-color: #f92d3e;
+  color: #fff;
+}
