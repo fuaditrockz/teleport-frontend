@@ -1,6 +1,6 @@
 # Teleport Starterkit
 
-This gulp starterkit provides a prepared development environment based on [gulp](https://github.com/gulpjs/gulp), less and [webpack](https://github.com/webpack/webpack). The internal data flow is handled with  [Reflux](https://github.com/spoike/refluxjs) and the routing is managed with the [React-Router](https://github.com/rackt/react-router).
+This Teleport starterkit provides a prepared development environment based on [gulp](https://github.com/gulpjs/gulp), less and [webpack](https://github.com/webpack/webpack). The internal data flow is handled with  [Reflux](https://github.com/spoike/refluxjs) and the routing is managed with the [React-Router](https://github.com/rackt/react-router).
 
 ## Get the kit
 
