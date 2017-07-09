@@ -42,9 +42,30 @@ gulp.task('html', function() {
     .pipe($.connect.reload());
 });
 
+// copy styles from app to dist
+gulp.task('style',function(cb){
+  return gulp.src(app + 'styles/*.css')
+    .pipe($.size({ title : 'css' }))
+    .pipe(gulp.dest(dist + 'styles/'));
+});
+
+// copy js from app to dist
+gulp.task('script',function(cb){
+  return gulp.src(app + 'script/**/*.js')
+    .pipe($.size({ title : 'js' }))
+    .pipe(gulp.dest(dist + 'script/'));
+});
+
+// copy font from app to dist
+gulp.task('fonts',function(cb){
+  return gulp.src(app + 'fonts/*.{eot,svg,ttf,woff,otf,woff2}')
+    .pipe(gulp.dest(dist + 'fonts/'));
+});
+
+
 gulp.task('styles',function(cb) {
 
-  // convert stylus to css
+  // convert less to css
   return gulp.src(app + 'less/main.less')
     .pipe($.less({
       // only compress if we are in production
@@ -83,6 +104,9 @@ gulp.task('watch', function() {
   gulp.watch(app + 'index.html', ['html']);
   gulp.watch(app + 'scripts/**/*.js', ['scripts']);
   gulp.watch(app + 'scripts/**/*.jsx', ['scripts']);
+  gulp.watch(app + 'script/**/*.js', ['script']);
+  gulp.watch(app + 'style/*.css', ['style']);
+  gulp.watch(app + 'fonts/*.{eot,svg,ttf,woff,otf,woff2}', ['fonts']);
 });
 
 // remove bundels
@@ -92,9 +116,9 @@ gulp.task('clean', function(cb) {
 
 
 // by default build project and then watch files in order to trigger livereload
-gulp.task('default', ['images', 'html','scripts', 'styles', 'serve', 'watch']);
+gulp.task('default', ['images', 'html','scripts', 'styles', 'serve', 'watch', 'style', 'script', 'fonts']);
 
 // waits until clean is finished then builds the project
 gulp.task('build', ['clean'], function(){
-  gulp.start(['images', 'html','scripts','styles']);
+  gulp.start(['images', 'html','scripts','styles', 'style', 'script', 'fonts']);
 });
